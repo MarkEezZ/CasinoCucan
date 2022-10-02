@@ -1,0 +1,33 @@
+﻿<Window x:Class="CasinoCucan2.TopUpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CasinoCucan2"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="CasinoCucan - Top Up Balance" Height="560" Width="480" Icon="C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\assets\icon.png">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\assets\top_up_window_1.png"/>
+    </Window.Background>
+    <Window.Resources>
+        <Style TargetType="Button">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border CornerRadius="10"
+                                    Background="{TemplateBinding Background}">
+
+                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                  VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    </Window.Resources>
+    <Grid>
+        <Button x:Name="confirmTopUp" Content="Confirm" HorizontalAlignment="Left" Height="60" Margin="120,400,0,0" VerticalAlignment="Top" Width="240" Foreground="White" FontFamily="Righteous" FontSize="24" Background="#FF72D800" BorderBrush="#FF095718" Click="confirmTopUp_Click"/>
+        <TextBox x:Name="amountTopUp" materialDesign:TextFieldAssist.DecorationVisibility="Hidden" Foreground="#FFDADADA" FontSize="24" FontFamily="Righteous" Text="0" Width="215" Height="46" HorizontalAlignment="Left" Margin="138,333,0,0" VerticalAlignment="Top" BorderBrush="#00000000" CaretBrush="#FFDADADA" Cursor="IBeam"/>
+    </Grid>
+</Window>

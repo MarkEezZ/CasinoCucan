@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7iTUpKxmBLeB8XZW4Bu8orJHkqPUDILMdDD4Kxti/Ki3spoj4fQlS8HePSgzAN1RfziXQF+QXuacGDBh2gBz7A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\goog5\\Desktop\\My Github\\CasinoCucan2\\CasinoCucan2\\CasinoCucan2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\goog5\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\goog5\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

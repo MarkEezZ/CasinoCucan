@@ -1,0 +1,92 @@
+﻿<Window x:Class="CasinoCucan2.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CasinoCucan2"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="CasinoCucan - Good Luck!" Height="1080" Width="1920" SizeToContent="Manual" WindowStartupLocation="CenterScreen" WindowState="Maximized" Icon="C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\assets\icon.png">
+    <Window.Resources>
+        <Style x:Key="fontDesign" TargetType="TextBlock">
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10"
+                                    Background="{TemplateBinding Background}">
+
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                  VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\assets\game_window_background_3.png"/>
+    </Window.Background>
+    <Grid>
+        <Button x:Name="topUpButton" Foreground="White"  Content="Top Up Balance" FontFamily="Righteous" FontSize="28"  HorizontalAlignment="Left" Height="75" Margin="500,550,0,0" VerticalAlignment="Top" Width="350" Background="#FF72D800"  Cursor="Hand" Click="topUpButton_Click" BorderBrush="#FF095718"/>
+        <Button x:Name="setBlackButton" Foreground="White" Content="X2" FontFamily="Righteous" FontSize="32" HorizontalAlignment="Left" Height="80" Margin="110,750,0,0" VerticalAlignment="Top" Width="220" Background="#0c1815" BorderBrush="{x:Null}" Click="setBlackButton_Click"/>
+        <Button x:Name="setGreenButton" Content="X14" Foreground="White" FontFamily="Righteous" FontSize="32" HorizontalAlignment="Left" Height="80" Margin="370,750,0,0" VerticalAlignment="Top" Width="220" Background="#15e97e" BorderBrush="{x:Null}" Click="setGreenButton_Click"/>
+        <Button x:Name="setWhiteButton" Content="X2" Foreground="#0c1815" FontFamily="Righteous" FontSize="32" HorizontalAlignment="Left" Height="80" Margin="630,750,0,0" VerticalAlignment="Top" Width="220" Background="#d3e9e6" BorderBrush="{x:Null}" Click="setWhiteButton_Click"/>
+        <TextBlock x:Name="textBlockBalance" Foreground="#FFDADADA" FontSize="28" FontFamily="Righteous"  Text="0" HorizontalAlignment="Left" Height="50" Margin="130,572,0,0" VerticalAlignment="Top" Width="321" Style="{DynamicResource fontDesign}" TextAlignment="Left"/>
+        <Rectangle HorizontalAlignment="Left" Height="80" Margin="110,650,0,0" VerticalAlignment="Top" Width="740" Fill="#FF282828" RadiusX="10" RadiusY="10"/>
+        <TextBox x:Name ="currentBet" materialDesign:TextFieldAssist.DecorationVisibility="Hidden" FontSize="28" Foreground="#FFDADADA" HorizontalAlignment="Left" Height="49" Margin="547,666,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="283" FontFamily="Righteous" TextAlignment="Right" CaretBrush="#FCB4B4B4" BorderBrush="#00000000"/>
+        <Label FontSize="28" Foreground="#FFDADADA" HorizontalAlignment="Left" Height="48" Margin="129,666,0,0"  Content="Place a bet:" VerticalAlignment="Top" Width="283" FontFamily="Righteous" BorderBrush="#00000000" />
+        <Rectangle HorizontalAlignment="Left" Height="80" Margin="110,850,0,0" VerticalAlignment="Top" Width="220" Fill="#FF282828" RadiusX="10" RadiusY="10"/>
+        <TextBox x:Name ="betBlack" FontSize="28" materialDesign:TextFieldAssist.DecorationVisibility="Hidden" Foreground="#FFDADADA" FontFamily="Righteous" HorizontalAlignment="Left" Height="48" Margin="129,866,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="179" CaretBrush="#FFDADADA" BorderBrush="#00000000"/>
+        <Rectangle HorizontalAlignment="Left" Height="80" Margin="370,850,0,0" VerticalAlignment="Top" Width="220" Fill="#FF282828" RadiusX="10" RadiusY="10"/>
+        <TextBox x:Name ="betGreen" FontSize="28" materialDesign:TextFieldAssist.DecorationVisibility="Hidden" Foreground="#FFDADADA" FontFamily="Righteous" HorizontalAlignment="Left" Height="48" Margin="384,866,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="190" CaretBrush="#FFDADADA" BorderBrush="#00000000" TextAlignment="Center"/>
+        <Rectangle HorizontalAlignment="Left" Height="80" Margin="630,850,0,0" VerticalAlignment="Top" Width="220" Fill="#FF282828" RadiusX="10" RadiusY="10"/>
+        <TextBox x:Name ="betWhite" FontSize="28" materialDesign:TextFieldAssist.DecorationVisibility="Hidden" Foreground="#FFDADADA" FontFamily="Righteous"  HorizontalAlignment="Left" Height="46" Margin="645,867,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="185" BorderBrush="#00000000" CaretBrush="#FFDADADA" TextAlignment="Right"/>
+        <Rectangle x:Name ="currentColor" HorizontalAlignment="Left" Height="48" Margin="1045,566,0,0" VerticalAlignment="Top" Width="48" RadiusX="10" RadiusY="10" Fill="#FF282828"/>
+        <TextBlock x:Name="spinBackBack" FontSize="30" HorizontalAlignment="Left" Height="100" Margin="685,95,0,0" VerticalAlignment="Top" Width="100" Background="#FF144E42" TextAlignment="Center"/>
+        <TextBlock x:Name="spinBack" FontSize="30" HorizontalAlignment="Left" Height="100" Margin="805,95,0,0" VerticalAlignment="Top" Width="100" Background="#FF144E42" TextAlignment="Center"/>
+        <TextBlock x:Name="spinCurrent" FontSize="30" HorizontalAlignment="Left" Height="100" Margin="925,95,0,0" VerticalAlignment="Top" Width="100" Background="#FF144E42" TextAlignment="Center"/>
+        <TextBlock x:Name="spinNext" FontSize="30" HorizontalAlignment="Left" Height="100" Margin="1045,95,0,0" VerticalAlignment="Top" Width="100" Background="#FF144E42" TextAlignment="Center"/>
+        <TextBlock x:Name="spinNextNext" FontSize="30" Height="100" Margin="1165,95,0,0" VerticalAlignment="Top" Background="#FF144E42" HorizontalAlignment="Left" Width="100" TextAlignment="Center"/>
+        <TextBlock x:Name="spinNextNextNext" FontSize="30" Height="100" Margin="1285,95,0,0" VerticalAlignment="Top" Background="#FF144E42" HorizontalAlignment="Left" Width="100" TextAlignment="Center"/>
+        <Rectangle x:Name="rectRight" Height="122" Width="120" Margin="1285,83,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\assets\rectangle_2.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="rectLeft" Height="116" Width="131" Margin="554,87,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\assets\rectangle_11.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock x:Name="line10" FontFamily="Righteous" TextAlignment="Center" Height="70" Width="70" Margin="20,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF282828" FontSize="28" Padding="15"/>
+        <TextBlock x:Name="line9" FontFamily="Righteous" TextAlignment="Center" Height="70" Width="70" Margin="110,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF282828" FontSize="28" Padding="15"/>
+        <TextBlock x:Name="line8" FontFamily="Righteous" TextAlignment="Center" Height="70" Width="70" Margin="200,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF282828" FontSize="28" Padding="15"/>
+        <TextBlock x:Name="line7" FontFamily="Righteous" TextAlignment="Center" Height="70" Width="70" Margin="290,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF282828" FontSize="28" Padding="15"/>
+        <TextBlock x:Name="line6" FontFamily="Righteous" TextAlignment="Center" Height="70" Width="70" Margin="380,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF282828" FontSize="28" Padding="15"/>
+        <TextBlock x:Name="line5" FontFamily="Righteous" TextAlignment="Center" Height="70" Width="70" Margin="470,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF282828" FontSize="28" Padding="15"/>
+        <TextBlock x:Name="line4" FontFamily="Righteous" TextAlignment="Center" Height="70" Width="70" Margin="560,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF282828" FontSize="28" Padding="15"/>
+        <TextBlock x:Name="line3" FontFamily="Righteous" TextAlignment="Center" Height="70" Width="70" Margin="650,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF282828" FontSize="28" Padding="15"/>
+        <TextBlock x:Name="line2" FontFamily="Righteous" TextAlignment="Center" Height="70" Width="70" Margin="740,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF282828" FontSize="28" Padding="15"/>
+        <TextBlock x:Name="line1" FontFamily="Righteous" TextAlignment="Center" Height="70" Width="70" Margin="830,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF282828" FontSize="28" Padding="15"/>
+        <TextBlock x:Name="line0" FontFamily="Righteous" TextAlignment="Center" Height="70" Width="70" Margin="920,310,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF282828" FontSize="28" Padding="15"/>
+        <Label x:Name="lab1" HorizontalAlignment="Left" Height="40" Margin="1544,585,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab2" HorizontalAlignment="Left" Height="40" Margin="1619,585,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab3" HorizontalAlignment="Left" Height="40" Margin="1695,585,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab4" HorizontalAlignment="Left" Height="40" Margin="1774,585,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab5" HorizontalAlignment="Left" Height="40" Margin="1514,650,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab10" HorizontalAlignment="Left" Height="40" Margin="1589,650,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab15" HorizontalAlignment="Left" Height="40" Margin="1665,650,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab20" HorizontalAlignment="Left" Height="40" Margin="1744,650,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab25" HorizontalAlignment="Left" Height="40" Margin="1473,719,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab30" HorizontalAlignment="Left" Height="40" Margin="1548,719,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab35" HorizontalAlignment="Left" Height="40" Margin="1624,719,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab40" HorizontalAlignment="Left" Height="40" Margin="1703,719,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab45" HorizontalAlignment="Left" Height="40" Margin="1435,790,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab50" HorizontalAlignment="Left" Height="40" Margin="1510,790,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab55" HorizontalAlignment="Left" Height="40" Margin="1586,790,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Label x:Name="lab60" HorizontalAlignment="Left" Height="40" Margin="1665,790,0,0" VerticalAlignment="Top" Width="40" Background="#1be87a"/>
+        <Button x:Name="exitButton" FontFamily="Righteous" Foreground="White" FontSize="20" Content="Exit" Height="50" Width="100"  HorizontalAlignment="Left" Margin="1780,40,0,0" VerticalAlignment="Top" Background="#7db327" Click="exitButton_Click"/>
+    </Grid>
+</Window>

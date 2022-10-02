@@ -1,0 +1,33 @@
+﻿<Window x:Class="CasinoCucan2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CasinoCucan2"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="CasinoCucan - Welcome!" Height="360" Width="480" Icon="C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\assets\icon.png">
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\assets\main_window_1.png"/>
+    </Window.Background>
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10"
+                                    Background="{TemplateBinding Background}">
+
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                  VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Button x:Name="OpenReg" Content="Register" Width="160" Height="60" Margin="60,215,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="OpenReg_Click" Cursor="Hand" FontFamily="Righteous" FontSize="20" Foreground="White" Background="#FF72D800"/>
+        <Button x:Name="OpenLogIn" Content="Log In" Width="160" Height="60" Margin="260,215,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="OpenLogIn_Click" Cursor="Hand" FontFamily="Righteous" FontSize="20" Foreground="White" Background="#FF72D800"/>
+    </Grid>
+</Window>

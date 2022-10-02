@@ -1,0 +1,72 @@
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.csproj.AssemblyReference.cache
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\GameWindow.g.cs
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\LogInWindow.g.cs
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\RegWindow.g.cs
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2_MarkupCompile.cache
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2_MarkupCompile.lref
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.exe
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.deps.json
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.runtimeconfig.json
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.runtimeconfig.dev.json
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.dll
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\ref\CasinoCucan2.dll
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.pdb
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\App.baml
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\GameWindow.baml
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\LogInWindow.baml
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\RegWindow.baml
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.g.resources
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.AssemblyInfoInputs.cache
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.AssemblyInfo.cs
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.csproj.CoreCompileInputs.cache
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.csproj.CopyComplete
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.dll
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\ref\CasinoCucan2.dll
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.pdb
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.genruntimeconfig.cache
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\TopUpWindow.g.cs
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\TopUpWindow.baml
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.Properties.Resources.resources
+C:\Users\goog5\Desktop\Учеба\ТРПО\Проект\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.csproj.GenerateResource.cache
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.exe
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.deps.json
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.runtimeconfig.json
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.runtimeconfig.dev.json
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.dll
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\ref\CasinoCucan2.dll
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\CasinoCucan2.pdb
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.csproj.AssemblyReference.cache
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\GameWindow.g.cs
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\LogInWindow.g.cs
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\RegWindow.g.cs
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\TopUpWindow.g.cs
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2_MarkupCompile.cache
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2_MarkupCompile.lref
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\App.baml
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\GameWindow.baml
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\LogInWindow.baml
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\RegWindow.baml
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\TopUpWindow.baml
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.g.resources
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.Properties.Resources.resources
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.csproj.GenerateResource.cache
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.AssemblyInfoInputs.cache
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.AssemblyInfo.cs
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.csproj.CoreCompileInputs.cache
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.csproj.CopyComplete
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.dll
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\ref\CasinoCucan2.dll
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.pdb
+C:\Users\goog5\Desktop\My Github\CasinoCucan2\CasinoCucan2\obj\Debug\net5.0-windows\CasinoCucan2.genruntimeconfig.cache
